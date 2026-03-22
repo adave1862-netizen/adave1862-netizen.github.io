@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-text-stroke: 1px black;
+
+
+    background-color: rgba(255, 255, 255, 0.829);
+
+    background-image: linear-gradient(rgba(253, 106, 204, 0.767),
+            rgba(255, 192, 231, 0.664)), url(img/bal.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: rgb(255, 255, 255);
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+p,
+h1 {
+    margin: 1px 0px;
+}
+
+p {
+    margin: 20px;
+}
+
+h1,
+h2 {
+    font-size: 75px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+img,
+p,
+h2 {
+    margin: 1px 0;
+}
